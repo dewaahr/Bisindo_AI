@@ -59,8 +59,8 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 ## Confusion Matrix Dan Visualisasi Data.
 - Dengan 41 Class.
 - Abjad A-Z, Beberapa Kata Dasar.
-  !image[confusion_matrix.jpg]
-  !image[labels.jpg]
+  !image[Confusion Matrix](confusion_matrix.jpg)
+  !image[Visualisasi Data - Label Class](labels.jpg)
 
 ## Endpoint
 - **`POST /start_camera`**: Memulai webcam.
