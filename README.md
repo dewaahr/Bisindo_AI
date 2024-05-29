@@ -1,37 +1,38 @@
-## Tugas untuk Kelas Kecerdasan Buatan UKDW
+# Tugas untuk Kelas Kecerdasan Buatan UKDW
 # AI Bisindo Sign Language App
 
 Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial intelligence/AI) untuk mendeteksi dan menerjemahkan Bahasa Isyarat Indonesia (BISINDO). Aplikasi ini memanfaatkan model deteksi objek YOLOv5 untuk mendeteksi tanda-tanda bahasa isyarat dari gambar atau video yang diberikan.
 
 ## Daftar Isi
 
-- [Library yang Diperlukan](#library-yang-diperlukan)
-- [Cara Menjalankan Aplikasi](#cara-menjalankan-aplikasi)
+- [Fitur](#fitur)
+- [Instalasi](#instalasi)
+- [Penggunaan dengan Flask](#penggunaan-dengan-flask)
+- [Penggunaan Tanpa GUI](#penggunaan-tanpa-gui)
+- [Endpoint](#endpoint)
+- [Contoh Mengontrol Kamera](#contoh-mengontrol-kamera)
+- [Catatan Tambahan](#catatan-tambahan)
+- [Kontribusi](#kontribusi)
+- [Lisensi](#lisensi)
 
-## Library yang Diperlukan
+## Fitur
 
-Untuk menjalankan aplikasi ini, Anda memerlukan beberapa library Python sebagai berikut:
+- Penangkapan video real-time dari webcam.
+- Deteksi objek menggunakan YOLOv5.
+- Streaming video langsung dengan objek yang terdeteksi disorot.
 
-- `torch`: Library PyTorch, digunakan untuk pemrosesan deep learning.
-- `opencv-python-headless`: OpenCV, digunakan untuk pemrosesan gambar dan video.
-- `flask`: Framework web yang digunakan untuk menyajikan hasil deteksi objek sebagai video stream.
+## Instalasi
 
-## Cara Menjalankan Aplikasi
+### Prasyarat
 
-Anda dapat menjalankan aplikasi ini dengan mengikuti langkah-langkah berikut:
+- Python 3.6+
+- pip
+- Git
 
-1. Pastikan Anda telah menginstal semua library yang diperlukan. Jika belum, Anda dapat menginstalnya dengan menggunakan pip:
+### Langkah-langkah
 
-    ```bash
-    pip install torch opencv-python-headless Flask
-    ```
+1. **Kloning repositori:**
 
-2. Salin kode Python di atas ke dalam sebuah file Python (misalnya `app.py`).
-
-3. Jalankan aplikasi dengan menjalankan file Python tersebut:
-
-    ```bash
-    python app.py
-    ```
-
-4. Setelah aplikasi berjalan, buka browser dan buka alamat `http://127.0.0.1:5000/` untuk melihat hasil deteksi objek secara real-time.
+   ```sh
+   git clone https://github.com/username/reponame.git
+   cd reponame
