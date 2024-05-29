@@ -8,6 +8,7 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 - [Tutorial Instalasi](#tutorial-instalasi)
 - [Penggunaan dengan Flask](#penggunaan-dengan-flask)
 - [Penggunaan Tanpa GUI](#penggunaan-tanpa-gui)
+- [Confusion Matrix Dan Visualisasi Data](#Confusion-Matrix-Dan-Visualisasi-Data)
 - [Endpoint](#endpoint)
 - [Contoh Mengontrol Kamera](#contoh-mengontrol-kamera)
 - [Catatan Tambahan](#catatan-tambahan)
@@ -56,7 +57,7 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 2. Jendela video akan muncul dan menampilkan hasil deteksi objek secara real-time.
 3.  `q` untuk menghentikan program.
 
-## Confusion Matrix Dan Visualisasi Data.
+## Confusion Matrix Dan Visualisasi Data
 - Dengan 41 Class.
 - Abjad A-Z, Beberapa Kata Dasar. <br>
   <img src="confusion_matrix.png" width="450">
