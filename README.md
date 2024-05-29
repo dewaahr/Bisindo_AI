@@ -59,7 +59,7 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 ## Confusion Matrix Dan Visualisasi Data.
 - Dengan 41 Class.
 - Abjad A-Z, Beberapa Kata Dasar. <br>
-  <img src="confusion_matrix.png" width="350">
+  <img src="confusion_matrix.png" width="450">
   <img src="labels.jpg" width="350" >
 
 ## Endpoint
