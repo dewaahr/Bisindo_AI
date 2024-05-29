@@ -56,6 +56,12 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 2. Jendela video akan muncul dan menampilkan hasil deteksi objek secara real-time.
 3.  `q` untuk menghentikan program.
 
+## Confusion Matrix Dan Visualisasi Data.
+- Dengan 41 Class.
+- Abjad A-Z, Beberapa Kata Dasar.
+  !image[confusion_matrix.jpg]
+  !image[labels.jpg]
+
 ## Endpoint
 - **`POST /start_camera`**: Memulai webcam.
 - **`POST /stop_camera`**: Menghentikan webcam.
