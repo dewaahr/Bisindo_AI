@@ -14,7 +14,6 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 1. **Kloning repositori:**
     ```sh
     git clone https://github.com/dewaahr/Bisindo_AI.git
-    cd reponame
     ```
 
 2. **Instal paket yang diperlukan:**
