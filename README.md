@@ -71,8 +71,8 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
     ```
 
 ## Catatan Tambahan
-- Model Dilatih menggunakan YOLOv5.
-- `https://github.com/ultralytics/yolov5` 
+- Model Dilatih menggunakan YOLOv5. `https://github.com/ultralytics/yolov5`
+- Deteksi dilakukan Secara real-time dengan mengakses kamera. Pastika Menjalankan Program dengan device yang memiliki kamera.
 
 ## Kontribusi
 -
