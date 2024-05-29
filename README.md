@@ -52,7 +52,7 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 2. Buka browser dan buka alamat `http://127.0.0.1:5000/` untuk melihat hasil deteksi objek secara real-time.
 
 ## Penggunaan Tanpa GUI
-1. Jalankan kode dengan perintah `python camera_detection.py`.
+1. Jalankan kode dengan perintah `python detect.py`.
 2. Jendela video akan muncul dan menampilkan hasil deteksi objek secara real-time.
 3.  `q` untuk menghentikan program.
 
