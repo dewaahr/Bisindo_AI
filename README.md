@@ -1,7 +1,9 @@
 # Tugas untuk Kelas Kecerdasan Buatan UKDW
-## AI Bisindo Sign Language App
+## Sistem Penerjemah Bahasa Isyarat | Real-time detection.
 
-Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial intelligence/AI) untuk mendeteksi dan menerjemahkan Bahasa Isyarat Indonesia (BISINDO). Aplikasi ini memanfaatkan model deteksi objek YOLOv5 untuk mendeteksi tanda-tanda bahasa isyarat dari gambar atau video yang diberikan.
+Program ini adalah sistem kecerdasan buatan yang bisa menerjemahkan Bahasa Isyarat Indonesia (BISINDO). Model Dilatih Menggunakan Algoritma YOLOv5.
+Program ini berkerja dengan cara mendeteksi melalui kamera secara real-time, yang akan langsung menampilkan Arti dari bahasa isyarat yang di terima dari kamera.
+Model dilatih dengan 41 Macam class dengan masing-masing data yang berbeda.
 
 ## Daftar Isi
 - [Syarat](#syarat)
@@ -21,6 +23,7 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 - PyTorch
 - OpenCV
 - Flask
+- Device dengan Kamera
 
 ## Tutorial Instalasi
 1. **Kloning repositori:**
@@ -80,7 +83,8 @@ Aplikasi ini adalah aplikasi yang menggunakan kecerdasan buatan (artificial inte
 ## Catatan Tambahan
 - Model Dilatih menggunakan YOLOv5. `https://github.com/ultralytics/yolov5`
 - Deteksi dilakukan Secara real-time dengan mengakses kamera. Pastika Menjalankan Program dengan device yang memiliki kamera.
-
-## Kontribusi
+- Gunakan Model yang terbaru `bisndopt3.pt`
+- Total Epoch = 
+## Sumber Data
 -
 
