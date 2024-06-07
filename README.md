@@ -16,6 +16,7 @@ Model dilatih dengan 41 Macam class dengan masing-masing data yang berbeda.
 - [Catatan Tambahan](#catatan-tambahan)
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
+- [Sumber Data](#sumber-data)
 
 ## Syarat
 - Python 3.6+
@@ -86,5 +87,6 @@ Model dilatih dengan 41 Macam class dengan masing-masing data yang berbeda.
 - Gunakan Model yang terbaru `bisndopt3.pt`
 - Total Epoch = 120
 ## Sumber Data
--
+- https://www.kaggle.com/datasets/achmadnoer/alfabet-bisindo
+- https://www.kaggle.com/datasets/agungmrf/indonesian-sign-language-bisindo
 
