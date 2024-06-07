@@ -84,7 +84,7 @@ Model dilatih dengan 41 Macam class dengan masing-masing data yang berbeda.
 - Model Dilatih menggunakan YOLOv5. `https://github.com/ultralytics/yolov5`
 - Deteksi dilakukan Secara real-time dengan mengakses kamera. Pastika Menjalankan Program dengan device yang memiliki kamera.
 - Gunakan Model yang terbaru `bisndopt3.pt`
-- Total Epoch = 
+- Total Epoch = 120
 ## Sumber Data
 -
 
