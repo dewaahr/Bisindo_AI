@@ -1,4 +1,10 @@
 # Tugas untuk Kelas Kecerdasan Buatan UKDW
+
+Anggota Kelompok :  
+- Elisabeth Jesika Jerau – 71220899
+- Hermanus Rangga Horo – 71220826
+- Christopher Aaron - 71220881
+
 ## Sistem Penerjemah Bahasa Isyarat | Real-time detection.
 
 Program ini adalah sistem kecerdasan buatan yang bisa menerjemahkan Bahasa Isyarat Indonesia (BISINDO). Model Dilatih Menggunakan Algoritma YOLOv5.
